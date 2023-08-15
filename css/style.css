@@ -51,7 +51,7 @@ body {
   padding: 110px 0px;
 }
 #banner {
-  background: url(./img/banner.png) top center / cover no-repeat;
+  background: url("../img/banner.png") top center / cover no-repeat;
 
   height: 644px;
   width: 100%;
@@ -215,7 +215,7 @@ body {
   background-color: #f5f5f5;
 }
 .stylish {
-  background: url(./img/u25_state0.png) top center / cover no-repeat;
+  background: url("../img/u25_state0.png") top center / cover no-repeat;
   text-align: center;
 }
 .content-section-text.content_tab-baner {
