@@ -82,15 +82,16 @@
     font-size: 12px;
   }
   .navbar-menu {
+    display: none;
+    flex-direction: column;
     text-align: center;
-    height: 0;
     position: absolute;
     top: 76px;
     left: 0;
     right: 0;
     width: 100vw;
     background-color: black;
-    transition: 0.2s;
+    transition: 0.5s;
   }
   .mobile-menu-btn {
     display: block;
@@ -101,7 +102,6 @@
     padding: 0 20px;
     color: #fefefe;
     line-height: 36px;
-    /* margin: 6px 0; */
   }
   .Header_row {
     overflow: hidden;
@@ -110,14 +110,11 @@
     justify-content: center;
     flex-direction: column;
     transition: 0.5;
-    opacity: 0;
   }
   .navbar-menu.active {
-    height: 450px;
+    display: flex;
   }
-  .navbar-menu.active ul {
-    opacity: 1;
-  }
+
   .Header_row {
     flex-direction: row-reverse;
   }
